@@ -1,0 +1,4 @@
+experiment_id,date,dataset,drift_type,fraud_model,ood_model,abstention_rate,leakage_risk,manual_review_cost_proxy,status
+EXP-001,2026-02-04,returns_normal.csv,None,RandomForest,IsolationForest,0.05,0.001,Low,BASELINE
+EXP-002,2026-02-04,returns_mild_drift.csv,Mild,RandomForest,IsolationForest,0.12,0.002,Medium,STABLE
+EXP-003,2026-02-04,returns_severe_drift.csv,Severe,RandomForest,IsolationForest,0.53,0.013,High,CRITICAL_DRIFT
